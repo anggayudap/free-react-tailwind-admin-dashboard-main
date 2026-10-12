@@ -54,7 +54,8 @@ export default function BarChartOne() {
       show: true,
       position: "top",
       horizontalAlign: "left",
-      fontFamily: "Outfit",
+      // fontFamily: "Outfit",
+      fontFamily: "Pretendard",
     },
     yaxis: {
       title: {

@@ -53,7 +53,8 @@ export default function CountryMap() {
         initial: {
           fill: "#D0D5DD",
           fillOpacity: 1,
-          fontFamily: "Outfit",
+          // fontFamily: "Outfit",
+          fontFamily: "Pretendard",
           stroke: "none",
           strokeWidth: 0,
           strokeOpacity: 0,

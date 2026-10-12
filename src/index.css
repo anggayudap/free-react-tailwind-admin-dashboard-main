@@ -6,7 +6,8 @@
 
 @theme {
   --font-*: initial;
-  --font-outfit: Outfit, sans-serif;
+  /* --font-outfit: Outfit, sans-serif; */
+  --font-pretendard: Pretendard, sans-serif;
 
   --breakpoint-*: initial;
   --breakpoint-2xsm: 375px;
@@ -192,7 +193,8 @@
   }
 
   body {
-    @apply relative z-1 bg-gray-50 font-outfit font-normal;
+    /* @apply relative z-1 bg-gray-50 font-outfit font-normal; */
+    @apply relative z-1 bg-gray-50 font-pretendard font-normal;
   }
 }
 
@@ -1126,4 +1128,15 @@ pre[class*="language-"].line-numbers {
   .custom-calendar .fc-timegrid {
     min-width: 580px;
   }
+}
+/* 20261010 it.angga */
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/Pretendard-Bold.woff2") format("woff2");
+  font-weight: 700;
 }
